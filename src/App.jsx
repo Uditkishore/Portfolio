@@ -32,14 +32,15 @@ import { About } from "./component/About";
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <Navbar />
+
       <Box>
-        <Navbar />
-        <Box className="body">
+        <Box className="pt-5">
           <Box
             display="flex"
             alignItems="center"
             justifyContent="space-around"
-            h="90vh"
+            h="100vh"
             flexWrap="wrap-reverse"
             bg={"#10101a"}
             color={"#fff"}
@@ -82,7 +83,6 @@ function App() {
             </Container>
           </Box>
           <About />
-          <Box border={"2px"}></Box>
           <Box id="skills" border={"2px"} bg={"#10101a"}>
             <Box
               display={"flex"}
@@ -94,7 +94,7 @@ function App() {
               color={"rgb(175, 167, 167)"}
               boxShadow="3px 3px 7px  5px black"
             >
-              <Center fontSize={"5xl"} fontWeight={"bold"}>
+              <Center fontSize={"5xl"} className="p-5" fontWeight={"bold"}>
                 Skills
               </Center>
               <Box
@@ -180,6 +180,7 @@ function App() {
               flexDirection="column"
               gap={"30px"}
               margin="20px"
+              className="pt-5"
               bg={"#10101a"}
               color={"rgb(175, 167, 167)"}
               boxShadow="3px 3px 7px  5px black"

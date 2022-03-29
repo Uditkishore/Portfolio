@@ -16,6 +16,7 @@ export function About() {
           color={"rgb(175, 167, 167)"}
           fontSize={"5xl"}
           fontWeight={"bold"}
+          className="p-5"
         >
           About Me
         </Center>

@@ -16,7 +16,7 @@ export function ControlledCarousel() {
   };
 
   return (
-    <Container fluid="md">
+    <Container>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <Card
@@ -127,7 +127,9 @@ export function ControlledCarousel() {
                       alignItems: "center",
                       gap: "5px",
                     }}
-                  >                    <AiFillGithub /> <span>Github</span>
+                  >
+                    {" "}
+                    <AiFillGithub /> <span>Github</span>
                   </Button>
                   <Button
                     _hover={{ textDecoration: "none" }}

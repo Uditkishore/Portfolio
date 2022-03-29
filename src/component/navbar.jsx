@@ -3,7 +3,7 @@ import { Link, Stack } from "@chakra-ui/react";
 export const Navbar = () => {
   return (
     <Stack
-      className="Header"
+      className="Header fixed-top "
       bgGradient="linear(to-l, #10101a,#FF0080)"
       direction="horizontal"
       gap={3}
