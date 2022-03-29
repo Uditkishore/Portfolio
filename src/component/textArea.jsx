@@ -18,7 +18,7 @@ export function Textbox() {
       />
       <Button
         bg={"blue.300"}
-        onClick={() => alert("Thanks for your ")}
+        onClick={() => alert("Thanks for your feedback ")}
         color="white"
         m={"2"}
       >
