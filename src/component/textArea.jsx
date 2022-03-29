@@ -16,7 +16,14 @@ export function Textbox() {
         placeholder="Write your reviews"
         size="sm"
       />
-      <Button m={"3"}>Submit</Button>
+      <Button
+        bg={"blue.300"}
+        onClick={() => alert("Thanks for your ")}
+        color="white"
+        m={"2"}
+      >
+        Submit
+      </Button>
     </>
   );
 }

@@ -13,6 +13,7 @@ import {
   Center,
   Stack,
 } from "@chakra-ui/react";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 
 import { Textbox } from "./textArea";
 
@@ -50,6 +51,10 @@ export function Footer() {
           spacing={"4"}
         >
           <Heading>You can find me 👇 here</Heading>{" "}
+          <Flex align={"cneter"} gap="3">
+            <MdOutlinePhoneIphone />
+            <h1>08789213238</h1>
+          </Flex>
           <Link
             href="https://www.linkedin.com/in/udit-kishor-b764a922b/"
             target={"_blank"}
