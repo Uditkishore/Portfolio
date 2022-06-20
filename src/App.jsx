@@ -78,7 +78,7 @@ function App() {
                 padding="15px"
                 bgGradient="linear(to-l, #7928CA, #FF0080)"
                 size="6xl"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFc6qtsItijrg/profile-displayphoto-shrink_200_200/0/1644673699118?e=1652918400&v=beta&t=qfL_vjrNbYbjv2TIHr7Ve7xFZG_44Sh72Ao1k8DmfZc"
+                src="https://avatars.githubusercontent.com/u/95956949?s=400&u=3a152578a7f9931400866d4bf9fc3a4c137ce840&v=4"
               ></Avatar>
             </Container>
           </Box>
@@ -89,7 +89,6 @@ function App() {
               flexDirection="column"
               margin="20px"
               justifyContent={"space-around"}
-              // bgGradient="linear(to-l, #10101a, #FF0080)"
               bg={"#10101a"}
               color={"rgb(175, 167, 167)"}
               boxShadow="3px 3px 7px  5px black"
